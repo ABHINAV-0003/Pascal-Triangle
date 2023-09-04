@@ -3,7 +3,7 @@ using namespace std;
 int nCr(int n,int r){ //nCr calculator
 int re=1;
 for(int i=0;i<r;i++){
-re=re*(n-1);
+re=re*(n-i);
 re=re/(i+1);
 } 
 return re;
